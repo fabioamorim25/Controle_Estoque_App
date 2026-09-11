@@ -1,0 +1,16 @@
+{
+  "name": "Api_controle",
+  "version": "1.0.0",
+  "description": "Api de controle de estoque, produtos e fornecedores",
+  "license": "ISC",
+  "author": "Fábio Amorim",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "server:start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
